@@ -74,6 +74,9 @@ class ExchangeService:
     ):
         """获取历史K线数据，支持失败重试"""
         
+        # 转换interval格式为CCXT格式
+        ccxt_interval = self._convert_interval(interval)
+        
         # 检查缓存
         if use_cache:
             cached_data = candlestick_cache.get(
@@ -93,7 +96,7 @@ class ExchangeService:
         
         while retry_count < max_retries:
             try:
-                logger.info(f"获取K线数据 (尝试 {retry_count + 1}/{max_retries}): {coinpair}, {interval}, limit={limit}")
+                logger.info(f"获取K线数据 (尝试 {retry_count + 1}/{max_retries}): {coinpair}, {interval} (CCXT: {ccxt_interval}), limit={limit}")
                 
                 # 获取数据
                 if since is not None:
@@ -104,7 +107,7 @@ class ExchangeService:
                     while True:
                         ohlcv = self.exchange.fetch_ohlcv(
                             symbol=coinpair,
-                            timeframe=interval,
+                            timeframe=ccxt_interval,
                             since=current_since,
                             limit=1000
                         )
@@ -135,7 +138,7 @@ class ExchangeService:
                     # 使用limit参数
                     ohlcv = self.exchange.fetch_ohlcv(
                         symbol=coinpair,
-                        timeframe=interval,
+                        timeframe=ccxt_interval,
                         limit=limit or 100
                     )
                     formatted_data = self._format_ohlcv_data(ohlcv)

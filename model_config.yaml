@@ -1,0 +1,141 @@
+model_list:
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-lpmyvqctuwefjzvhgmqdshokdwymtbwbzignobarltucaiwe
+    model: openai/claude-3-5-sonnet-20241022
+  model_name: claude-3-5-sonnet-20241022
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-joozoveuwkojwjhlmwlqlkjxpkjneqzdhscslogdeykrzehv
+    model: openai/claude-3-5-sonnet-20241022
+  model_name: claude-3-5-sonnet-20241022
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-oonrlsjwpzuhkpwifmbkignkexlsiyqhzwdyhixxnuzwosoh
+    model: openai/claude-3-5-sonnet-20241022
+  model_name: claude-3-5-sonnet-20241022
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-zvmriplwnxlkdsohfllisazvebfbeztqpbimijowyyegedyo
+    model: openai/claude-3-5-sonnet-20241022
+  model_name: claude-3-5-sonnet-20241022
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-lpmyvqctuwefjzvhgmqdshokdwymtbwbzignobarltucaiwe
+    model: openai/Qwen/Qwen3-Coder-30B-A3B-Instruct
+  model_name: Qwen/Qwen3-Coder-30B-A3B-Instruct
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-joozoveuwkojwjhlmwlqlkjxpkjneqzdhscslogdeykrzehv
+    model: openai/Qwen/Qwen3-Coder-30B-A3B-Instruct
+  model_name: Qwen/Qwen3-Coder-30B-A3B-Instruct
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-oonrlsjwpzuhkpwifmbkignkexlsiyqhzwdyhixxnuzwosoh
+    model: openai/Qwen/Qwen3-Coder-30B-A3B-Instruct
+  model_name: Qwen/Qwen3-Coder-30B-A3B-Instruct
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-zvmriplwnxlkdsohfllisazvebfbeztqpbimijowyyegedyo
+    model: openai/Qwen/Qwen3-Coder-30B-A3B-Instruct
+  model_name: Qwen/Qwen3-Coder-30B-A3B-Instruct
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-lpmyvqctuwefjzvhgmqdshokdwymtbwbzignobarltucaiwe
+    model: openai/Qwen/Qwen3-Coder-30B-A3B-Thinking
+  model_name: Qwen/Qwen3-Coder-30B-A3B-Thinking
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-joozoveuwkojwjhlmwlqlkjxpkjneqzdhscslogdeykrzehv
+    model: openai/Qwen/Qwen3-Coder-30B-A3B-Thinking
+  model_name: Qwen/Qwen3-Coder-30B-A3B-Thinking
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-oonrlsjwpzuhkpwifmbkignkexlsiyqhzwdyhixxnuzwosoh
+    model: openai/Qwen/Qwen3-Coder-30B-A3B-Thinking
+  model_name: Qwen/Qwen3-Coder-30B-A3B-Thinking
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-zvmriplwnxlkdsohfllisazvebfbeztqpbimijowyyegedyo
+    model: openai/Qwen/Qwen3-Coder-30B-A3B-Thinking
+  model_name: Qwen/Qwen3-Coder-30B-A3B-Thinking
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-lpmyvqctuwefjzvhgmqdshokdwymtbwbzignobarltucaiwe
+    model: openai/Qwen/Qwen3-Coder-480B-A35B-Instruct
+  model_name: Qwen/Qwen3-Coder-480B-A35B-Instruct
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-joozoveuwkojwjhlmwlqlkjxpkjneqzdhscslogdeykrzehv
+    model: openai/Qwen/Qwen3-Coder-480B-A35B-Instruct
+  model_name: Qwen/Qwen3-Coder-480B-A35B-Instruct
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-oonrlsjwpzuhkpwifmbkignkexlsiyqhzwdyhixxnuzwosoh
+    model: openai/Qwen/Qwen3-Coder-480B-A35B-Instruct
+  model_name: Qwen/Qwen3-Coder-480B-A35B-Instruct
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-zvmriplwnxlkdsohfllisazvebfbeztqpbimijowyyegedyo
+    model: openai/Qwen/Qwen3-Coder-480B-A35B-Instruct
+  model_name: Qwen/Qwen3-Coder-480B-A35B-Instruct
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-lpmyvqctuwefjzvhgmqdshokdwymtbwbzignobarltucaiwe
+    model: openai/Qwen/Qwen3-VL-235B-A22B-Thinking
+  model_name: Qwen/Qwen3-VL-235B-A22B-Thinking
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-joozoveuwkojwjhlmwlqlkjxpkjneqzdhscslogdeykrzehv
+    model: openai/Qwen/Qwen3-VL-235B-A22B-Thinking
+  model_name: Qwen/Qwen3-VL-235B-A22B-Thinking
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-oonrlsjwpzuhkpwifmbkignkexlsiyqhzwdyhixxnuzwosoh
+    model: openai/Qwen/Qwen3-VL-235B-A22B-Thinking
+  model_name: Qwen/Qwen3-VL-235B-A22B-Thinking
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-zvmriplwnxlkdsohfllisazvebfbeztqpbimijowyyegedyo
+    model: openai/Qwen/Qwen3-VL-235B-A22B-Thinking
+  model_name: Qwen/Qwen3-VL-235B-A22B-Thinking
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-lpmyvqctuwefjzvhgmqdshokdwymtbwbzignobarltucaiwe
+    model: openai/deepseek-ai/DeepSeek-V3
+  model_name: deepseek-ai/DeepSeek-V3
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-joozoveuwkojwjhlmwlqlkjxpkjneqzdhscslogdeykrzehv
+    model: openai/deepseek-ai/DeepSeek-V3
+  model_name: deepseek-ai/DeepSeek-V3
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-oonrlsjwpzuhkpwifmbkignkexlsiyqhzwdyhixxnuzwosoh
+    model: openai/deepseek-ai/DeepSeek-V3
+  model_name: deepseek-ai/DeepSeek-V3
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-zvmriplwnxlkdsohfllisazvebfbeztqpbimijowyyegedyo
+    model: openai/deepseek-ai/DeepSeek-V3
+  model_name: deepseek-ai/DeepSeek-V3
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-lpmyvqctuwefjzvhgmqdshokdwymtbwbzignobarltucaiwe
+    model: openai/deepseek-ai/DeepSeek-V3.1-Terminus
+  model_name: deepseek-ai/DeepSeek-V3.1-Terminus
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-joozoveuwkojwjhlmwlqlkjxpkjneqzdhscslogdeykrzehv
+    model: openai/deepseek-ai/DeepSeek-V3.1-Terminus
+  model_name: deepseek-ai/DeepSeek-V3.1-Terminus
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-oonrlsjwpzuhkpwifmbkignkexlsiyqhzwdyhixxnuzwosoh
+    model: openai/deepseek-ai/DeepSeek-V3.1-Terminus
+  model_name: deepseek-ai/DeepSeek-V3.1-Terminus
+- litellm_params:
+    api_base: https://api.siliconflow.cn/v1/
+    api_key: sk-zvmriplwnxlkdsohfllisazvebfbeztqpbimijowyyegedyo
+    model: openai/deepseek-ai/DeepSeek-V3.1-Terminus
+  model_name: deepseek-ai/DeepSeek-V3.1-Terminus
